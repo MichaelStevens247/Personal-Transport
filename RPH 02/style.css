@@ -16,6 +16,7 @@
 }
 
 .right{
+    max-height: 100%;
     text-align: right;
 }
 
@@ -24,7 +25,8 @@
 }
 
 .logo{
-    max-height: 100%;
+    max-height: 15vh;
+    border-radius: 20%;
 }
 
 .main{
@@ -40,14 +42,16 @@
     height: 1fr;
     border: 2px solid black;
     font-family: 'Roboto Slab';
-    font-size: 40px;
+    font-size: 27px;
     font-weight: bold;
     padding: 10px;
+    border-radius: 5%;
 }
 
 #hours{
     max-height: 100%;
     max-width: 100%;
+    
 }
 
 .top{
@@ -60,8 +64,8 @@
 #mural{
     max-height: 100%;
     /* margin: auto; */
-    
-    border: 3PX SOLID BLACK;
+    border: 3PX SOLID white;
+    border-radius: 33%;
 }
 
 .bot{
@@ -77,11 +81,12 @@
     background-image: url('white-wood-NO WM.jpg');
     border:2px solid black;
     padding: 10px;
+    border-radius: 20%;
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1000px) {
     .upright{
-        font-size: 2vh;
+        font-size: 16px;
     }
 
     .main{
@@ -128,7 +133,8 @@
 
 #lights{
     width: 100%;
-    border: 2px solid black;
+    border: 2px solid white;
+    border-radius: 33%;
 }
 
 .blurb{
@@ -151,8 +157,9 @@
 
 .fb-box{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     grid-area: events;
+    border: 3px solid #3b5998;
 }
 
 /* .fb-page{
@@ -171,7 +178,8 @@ footer{
     max-width:100%;
     max-height: 100%;
     margin: auto;
-    border: black 2px solid;
+    border: white 2px solid;
+    border-radius: 33%;
 }
 
 @media only screen and (max-width: 1400px) {
